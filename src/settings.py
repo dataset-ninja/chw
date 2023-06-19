@@ -29,7 +29,7 @@ GITHUB_URL: str = "https://github.com/dataset-ninja/chw"
 ##################################
 ### * Optional after uploading ###
 ##################################
-DOWNLOAD_ORIGINAL_URL: Optional[Union[str, dict]] = None
+DOWNLOAD_ORIGINAL_URL: Optional[Union[str, dict]] = "https://universe.roboflow.com/jack-v5j2k/chw/dataset/3/download"
 # Optional link for downloading original dataset (e.g. "https://some.com/dataset/download")
 
 CLASS2COLOR: Optional[Dict[str, List[str]]] = None
@@ -37,8 +37,8 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 
 PAPER: Optional[str] = None
 CITATION_URL: Optional[str] = "https://universe.roboflow.com/jack-v5j2k/chw/dataset/3/download"
-ORGANIZATION_NAME: Optional[Union[str, List[str]]] = None
-ORGANIZATION_URL: Optional[Union[str, List[str]]] = None
+ORGANIZATION_NAME: Optional[Union[str, List[str]]] = "Roboflow community"
+ORGANIZATION_URL: Optional[Union[str, List[str]]] = "https://universe.roboflow.com/jack-v5j2k"
 TAGS: List[str] = None
 
 ##################################
